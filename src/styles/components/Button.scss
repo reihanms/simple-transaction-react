@@ -1,0 +1,27 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 5px;
+    &-primary {
+      background-color: rgba(124, 124, 124, 0.701);
+      color: white;
+      &:hover {
+        background-color: rgba(82, 82, 82, 0.701);
+        border-color: rgba(79, 79, 79, 0.701);
+        cursor: pointer;
+      }
+    }
+  
+    &-secondary {
+      background-color: #ff4343;
+      color: white;
+      &:hover {
+        background-color: rgb(173, 0, 0);
+        color: white;
+        cursor: pointer;
+      }
+    }
+}

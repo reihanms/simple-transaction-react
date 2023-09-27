@@ -1,0 +1,12 @@
+.x-input-component {
+    display: block;
+    text-align: left;
+    .x-input-label {
+        font-weight: bold;
+    }
+    .x-input-field {
+        padding: 0.6rem;
+        background-color: #f3f3f3;
+        color: rgba(26, 26, 26, 0.87);
+    }
+}
